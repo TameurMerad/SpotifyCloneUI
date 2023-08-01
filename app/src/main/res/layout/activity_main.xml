@@ -27,6 +27,7 @@
         android:textStyle="bold"
         android:fontFamily="@font/poppins_bold"
         android:textSize="94px"
+
         android:textColor="@color/white"
         />
 
@@ -34,6 +35,8 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_marginRight="17dp"
+        android:gravity="center"
+
         android:layout_marginLeft="17dp"
         android:layout_marginTop="50dp"
         android:layout_height="54dp"
@@ -48,6 +51,8 @@
         android:layout_marginRight="17dp"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="6dp"
+        android:gravity="center"
+
         android:layout_height="54dp"
         android:text="Continue with phone number"
         android:textSize="18sp"
@@ -64,6 +69,7 @@
         android:layout_marginRight="17dp"
         android:layout_marginLeft="17dp"
         android:layout_marginTop="6dp"
+        android:gravity="center"
         android:layout_height="54dp"
         android:text="Continue with Google"
         android:textSize="18sp"
@@ -89,6 +95,7 @@
         android:drawableLeft="@drawable/facebook"
         android:paddingLeft="15dp"
         android:paddingRight="28dp"
+        android:gravity="center"
         android:background="@drawable/bg_white_btn"/>
     <TextView
         android:layout_width="wrap_content"

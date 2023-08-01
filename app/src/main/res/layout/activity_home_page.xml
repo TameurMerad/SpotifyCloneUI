@@ -1,4 +1,4 @@
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,13 +8,13 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <android.widget.LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
 
-        <android.support.v7.widget.LinearLayoutCompat
+        <android.widget.LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -57,7 +57,7 @@
                 android:layout_gravity="center"
                 android:paddingEnd="-12dp"
                  />
-        </android.support.v7.widget.LinearLayoutCompat>
+        </android.widget.LinearLayout>
 
        <GridLayout
            android:layout_width="match_parent"
@@ -97,6 +97,8 @@
                        android:layout_height="wrap_content"
                        android:layout_gravity="center"
                        android:fontFamily="@font/poppins_bold"
+                       android:textSize="12dp"
+
                        android:text="This is Lana \nDel Rey"
                        android:textColor="@color/white"
                        android:layout_marginEnd="15dp"
@@ -139,6 +141,7 @@
                        android:fontFamily="@font/poppins_bold"
                        android:text="Nasheed for\n GYM"
                        android:textColor="@color/white"
+                       android:textSize="12dp"
                        android:textStyle="bold" />
 
 
@@ -177,6 +180,8 @@
                        android:layout_gravity="center"
                        android:fontFamily="@font/poppins_bold"
                        android:text="Liked Songs"
+                       android:textSize="12dp"
+
                        android:textColor="@color/white"
                        android:textStyle="bold" />
 
@@ -217,6 +222,8 @@
                        android:fontFamily="@font/poppins_bold"
                        android:text="NIGGA"
                        android:textColor="@color/white"
+                       android:textSize="12dp"
+
                        android:textStyle="bold" />
 
 
@@ -255,6 +262,8 @@
                        android:layout_gravity="center"
                        android:fontFamily="@font/poppins_bold"
                        android:text="So me"
+                       android:textSize="12dp"
+
                        android:textColor="@color/white"
                        android:textStyle="bold" />
 
@@ -295,6 +304,8 @@
                        android:fontFamily="@font/poppins_bold"
                        android:text="Tchoupina dsa7"
                        android:textColor="@color/white"
+                       android:textSize="12dp"
+
                        android:textStyle="bold" />
 
 
@@ -338,7 +349,7 @@
             android:scrollbars="none"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-            <android.support.v7.widget.LinearLayoutCompat
+            <android.widget.LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -460,7 +471,7 @@
                 </LinearLayout>
 
 
-            </android.support.v7.widget.LinearLayoutCompat>
+            </android.widget.LinearLayout>
         </HorizontalScrollView>
         <TextView
             android:layout_width="wrap_content"
@@ -477,7 +488,7 @@
             android:scrollbars="none"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-            <android.support.v7.widget.LinearLayoutCompat
+            <android.widget.LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -599,9 +610,9 @@
                 </LinearLayout>
 
 
-            </android.support.v7.widget.LinearLayoutCompat>
+            </android.widget.LinearLayout>
         </HorizontalScrollView>
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </android.widget.LinearLayout>
 
 </ScrollView>
