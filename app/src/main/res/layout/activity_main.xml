@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_pic"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/spotify_logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Millions of songs \n  Free on Spotify."
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="94px"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="54dp"
+        android:text="Start for free"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/bg_btn_ripple"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="54dp"
+        android:text="Continue with phone number"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:drawableLeft="@drawable/phone_ic"
+        android:paddingLeft="19dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/bg_white_btn"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="54dp"
+        android:text="Continue with Google"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:drawableLeft="@drawable/google"
+        android:paddingLeft="15dp"
+        android:paddingRight="28dp"
+        android:background="@drawable/bg_white_btn"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="54dp"
+        android:text="Continue with facebook"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="15dp"
+        android:paddingRight="28dp"
+        android:background="@drawable/bg_white_btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Log in "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+</LinearLayout>
